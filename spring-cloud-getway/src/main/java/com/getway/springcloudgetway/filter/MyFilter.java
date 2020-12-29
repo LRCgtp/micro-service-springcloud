@@ -21,7 +21,7 @@ import reactor.core.publisher.Mono;
 /**
  * @author ruicai.li@hand-china.com
  */
-//@Component
+@Component
 public class MyFilter implements GlobalFilter, Order {
     static Logger logger= LoggerFactory.getLogger(MyFilter.class);
     @Override
