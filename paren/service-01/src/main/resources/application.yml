@@ -1,0 +1,9 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: service-provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8081/eureka,http://eureka:8082/eureka

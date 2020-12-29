@@ -1,0 +1,34 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: api-getway
+
+    # spring-zuul�ְ���hystrix��ribbon����zuul��Ȼ���и��ؾ�����̸߳����Լ���·���Ĺ���
+
+zuul:
+  routes:
+    api-a:
+      # springcloud-zuul������·��ʱ��Ĭ�Ϲ��˵������е�������Ϣ������cookie��authentication,set-cookie
+      # �ڼ�Ȩ��������Ҫ���ض��ķ������Ӧ�ÿ���������Щ��Ϣ�������޷����м�Ȩ
+      # �����ַ�ʽ����ʵ����Щ��Ϣ�Ĵ���
+      # 1.ͨ������ȫ�ֲ���Ϊ����������ЩĬ������
+      # zuul.sensitiveHeaders=
+      # ��ָ����·�ɿ����Զ�������ͷ
+      # zuul.routes.<router>.customSensitiveHeaders=true
+      # ��ָ��·������ͷ����Ϊ��
+      # zuul.routes.<router>.sensitiveHeaders=
+      path: /hdgp-hello/v1/**
+      #url: http://localhost:8080
+      # ʹ�ø÷�ʽ��·�ɽ���֧�ֿͻ��˵ĸ��ؾ��⣬�̸߳����Լ���·��
+      serviceId: service-provider #�Ƽ�ʹ�����ַ�ʽ
+    api-b:
+      path: /hdgp-hello/**
+      serviceId: cosumer-01
+  prefix: /api #Ϊ����·�����ǰ׺
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8081/eureka,http://eureka:8082/eureka
+

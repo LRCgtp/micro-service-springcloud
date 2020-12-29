@@ -1,0 +1,29 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LRCgtp/client-config-repo #git配置仓库的地址
+          search-paths:  #git配置文件的相对路径
+          username: 3115679714@qq.com #git用户名
+          password: liruicai123 #git密码
+          basedir: D:\temp #指定克隆下来的配置文件保存到本地目录的路径
+      fail-fast: true #开启配置中心快速响应获取配置信息的失败或者成功
+  rabbitmq:
+    host: 192.168.101.18
+    port: 5672
+    username: lrc
+    password: 123456
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8081/eureka,http://eureka:8082/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

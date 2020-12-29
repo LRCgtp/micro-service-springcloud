@@ -1,0 +1,8 @@
+
+dsquid:S3457""AFormat specifiers should be used instead of string concatenation.(ñúûúÿÿÿÿ8ãĞüÌ°.
+qsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Òµ¦ó8µ¿ôÌ°.
+vsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ß«”Õøÿÿÿÿ8µ¿ôÌ°.
+€squid:S3008"]Rename this field "DEFAULT_SERVICE_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¨ëœùÿÿÿÿ8µ¿ôÌ°.
+zsquid:S3008"WRename this field "DEFAULT_PORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï…¿Şşÿÿÿÿ8µ¿ôÌ°.
+zsquid:S3008"WRename this field "DEFAULT_HOST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éù¡şıÿÿÿÿ8µ¿ôÌ°.
+Ysquid:S1068"6Remove this unused "DEFAULT_SERVICE_ID" private field.(Ü¨ëœùÿÿÿÿ8µ¿ôÌ°.

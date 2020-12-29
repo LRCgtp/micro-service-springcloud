@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/paren/api-getway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paren/authorization-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paren/common-feigin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paren/config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paren/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paren/cosumer-01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paren/eureka-01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paren/eureka-02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paren/resouce-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paren/service-01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paren/service-02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-getway" charset="UTF-8" />
+  </component>
+</project>

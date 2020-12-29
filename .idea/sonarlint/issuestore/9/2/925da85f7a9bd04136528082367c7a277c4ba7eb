@@ -1,0 +1,4 @@
+
+rsquid:UselessImportCheck"BRemove this unused import 'com.netflix.discovery.DiscoveryClient'.(îƒÉ£úÿÿÿÿ8›õ‘Åé.
+psquid:UselessImportCheck"ERemove this unused import 'com.netflix.discovery.shared.Application'.(Ä‡Ò–8•‘’Åé.
+msquid:UselessImportCheck	"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ

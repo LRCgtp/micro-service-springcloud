@@ -1,0 +1,21 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8081/eureka,http://eureka:8082/eureka
+spring:
+  rabbitmq:
+    host: 192.168.101.18
+    port: 5672
+    username: lrc
+    password: 123456
+  cloud:
+    config:
+      # uri: http://localhost:9090/
+      label: master
+      profile: pro
+
+      discovery:
+        enabled: true
+        service-id: config-server
+  application:
+    name: client-config

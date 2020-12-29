@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-getway" />
+        <module name="authorization-server" />
+        <module name="common-feigin" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="cosumer-01" />
+        <module name="eureka-01" />
+        <module name="eureka-02" />
+        <module name="resouce-server" />
+        <module name="service-01" />
+        <module name="service-02" />
+        <module name="spring-cloud-getway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-getway" target="1.8" />
+      <module name="authorization-server" target="1.8" />
+      <module name="common-feigin" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="cosumer-01" target="1.8" />
+      <module name="eureka-01" target="1.8" />
+      <module name="eureka-02" target="1.8" />
+      <module name="resouce-server" target="1.8" />
+      <module name="service-01" target="1.8" />
+      <module name="service-02" target="1.8" />
+      <module name="spring-cloud-getway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

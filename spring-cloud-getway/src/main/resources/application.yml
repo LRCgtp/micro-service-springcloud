@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: api-getway
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "https://docs.spring.io"
+            allowedMethods:
+            - GET
+      routes:
+      - id: user_route
+        uri: http://localhost:7071 #面向地址调用服务
+        #uri: lb://cosumer-01 # 面向服务调用 lb: 使用负载均衡策略   userservices代表注册中心的具体服务名
+        predicates:
+        - Path=/cosumer/**
+        filters:
+        - name: RequestRateLimiter #配置网关限流过滤器
+          args: #令牌桶配置参数
+            key-resolver: '#{@ipKeyResolver}'
+            redis-rate-limiter.replenishRate: 1 #每秒请求数
+            redis-rate-limiter.burstCapacity: 100 #设置通容量
+      httpclient:
+        connect-timeout: 3000
+        response-timeout: 5s
+  redis:
+    host: 47.93.183.224
+    port: 6379
+
+
+
+
+
+
+
+
+
+server:
+  port: 9091
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka,http://localhost:8082/eureka

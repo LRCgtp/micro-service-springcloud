@@ -1,0 +1,11 @@
+
+
+server:
+  port: 10001
+spring:
+  application:
+    name: resoucess-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8081/eureka,http://eureka:8082/eureka

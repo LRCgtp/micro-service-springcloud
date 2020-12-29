@@ -1,0 +1,9 @@
+server:
+  port: 7072
+spring:
+  application:
+    name: common-feigin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8081/eureka,http://eureka:8082/eureka

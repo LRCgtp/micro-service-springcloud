@@ -1,0 +1,10 @@
+
+server:
+  port: 10000
+spring:
+  application:
+    name: authorization-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8081/eureka,http://eureka:8082/eureka

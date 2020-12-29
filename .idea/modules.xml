@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/paren/api-getway/api-getway.iml" filepath="$PROJECT_DIR$/paren/api-getway/api-getway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paren/authorization-server/authorization-server.iml" filepath="$PROJECT_DIR$/paren/authorization-server/authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paren/common-feigin/common-feigin.iml" filepath="$PROJECT_DIR$/paren/common-feigin/common-feigin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paren/config-client/config-client.iml" filepath="$PROJECT_DIR$/paren/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paren/config-server/config-server.iml" filepath="$PROJECT_DIR$/paren/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paren/cosumer-01/cosumer-01.iml" filepath="$PROJECT_DIR$/paren/cosumer-01/cosumer-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paren/eureka-01/eureka-01.iml" filepath="$PROJECT_DIR$/paren/eureka-01/eureka-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paren/eureka-02/eureka-02.iml" filepath="$PROJECT_DIR$/paren/eureka-02/eureka-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paren/resouce-server/resouce-server.iml" filepath="$PROJECT_DIR$/paren/resouce-server/resouce-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paren/service-01/service-01.iml" filepath="$PROJECT_DIR$/paren/service-01/service-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paren/service-02/service-02.iml" filepath="$PROJECT_DIR$/paren/service-02/service-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-getway/spring-cloud-getway.iml" filepath="$PROJECT_DIR$/spring-cloud-getway/spring-cloud-getway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud体系.iml" filepath="$PROJECT_DIR$/.idea/springcloud体系.iml" />
+    </modules>
+  </component>
+</project>
