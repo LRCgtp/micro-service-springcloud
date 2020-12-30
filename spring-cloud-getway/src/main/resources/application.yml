@@ -11,17 +11,18 @@ spring:
         - Path=/cosumer/**
         filters:
         - AddRequestHeader=X-Request-red, blue  #通过过滤器给该请求添加个请求头信息
-        - name: RequestRateLimiter #配置网关限流过滤器
-          args: #令牌桶配置参数
-            key-resolver: '#{@ipKeyResolver}'
-            redis-rate-limiter.replenishRate: 1 #每秒请求数
-            redis-rate-limiter.burstCapacity: 100 #设置通容量
+        #- name: RequestRateLimiter #配置网关限流过滤器-SpringCloud GateWay限流/阿里Sentinel限流
+          #args: #令牌桶配置参数
+            #key-resolver: '#{@ipKeyResolver}'
+            #redis-rate-limiter.replenishRate: 1 #每秒请求数
+            #redis-rate-limiter.burstCapacity: 1 #设置通容量
       httpclient:
         connect-timeout: 3000
         response-timeout: 5s
   redis:
     host: 47.93.183.224
     port: 6379
+    database: 0
 server:
   port: 9091
 eureka:
